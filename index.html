@@ -1,2 +1,77 @@
  <link rel="stylesheet" type = "text/css" href="style.css"/>
-<h1>Test</h1>
+
+  <h1 id = "title">Coding Survey Form</h1>
+<p id = "description">Share a little of your coding knowledge by filling out this form.</p>
+  <h2>Fill out the following:</h2>
+<form id = "survey-form">
+    
+    <label id = "name-label">
+    <input class = "text-input" id = "name" type = "name" placeholder = "Name" required>
+    </label>
+    
+    <label id = "email-label">
+    <input class = "text-input" id = "email" type = "email" placeholder = "Email" required>
+      </label>
+    
+    <label id = "number-label">
+    <input class = "text-input" id = "number" type = "number" placeholder = "Age" min = "13" max = "100" required>
+    </label>
+    
+    <label id = "exp-label">
+    <input class = "text-input" id = "experience" type = "number" placeholder = "Years Coding" required>
+    </label>
+  <br><br><br>
+  <br>
+  
+  <h2>Which is your favorite section of freecodecamp</h2>
+  
+  <select id = "dropdown">
+    <option>Responsive Web Design</option>
+    <option>Javascript Algorithms and Data Sturctures</option>
+    <option>Front End Libraries</option>
+    <option>Data Visualization</option>
+    <option>APIS and Microservices</option>
+    <option>Information and Security</option>
+    <option>Coding Interview Prep</option>
+  </select>
+  
+  <h2>Would you recommend freecodecamp to a friend?</h2>
+  
+  <label for = "Yes" name = "recommend">
+    <input type = "radio" name = "rec" checked value = "y">Yes
+  </label>
+  
+  <label for = "No" name = "recommend">
+    <input type = "radio" name = "rec" value = "n">No
+  </label>
+  
+  <label for = "Maybe" name = "recommend">
+    <input type = "radio" name = "rec" value = "m">Maybe
+  </label>
+    
+  <h2>Choose the following coding languages you know</h2>
+  <div id = "checkboxes">
+    <input type = "checkbox" value = "0">HTML <span>....................</span>
+  CSS<input type = "checkbox" value = "1"><br>
+  <input type = "checkbox" value = "2">JS <span>..................</span>
+  PYTHON<input type = "checkbox" value = "3"><br>
+  <input type = "checkbox" value = "4">C++ <span>.....................</span>
+  JAVA<input type = "checkbox" value = "5"><br>
+  <input type = "checkbox" value = "6">C# <span>...........................</span>
+  C<input type = "checkbox" value = "7"><br>
+  <input type = "checkbox" value = "8">MongoDB <span>...........</span>
+  RUBY<input type = "checkbox" value = "9"><br>
+  <input type = "checkbox" value = "10">SQL <span>...................</span>
+  Other<input type = "checkbox" value = "11">
+  </div>
+  
+  <h2></h2>
+  
+  <h2>Any additional comments?</h2>
+  
+  <textArea id = "comments" placeholder = "comments..."></textArea>
+  
+    <input id = "submit" type = "submit">
+  
+</form>
+<footer style = "font-family:sans-serif; font-size:12px;">Copyright © ConnerOw1115 2019</footer>
