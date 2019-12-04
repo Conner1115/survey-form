@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
   width:20%;
   padding:2%;
   font-family:Righteous;
-  font-size:20px;
+  font-size:15px;
   margin:5% 40% 0% 40%;
   background:white;
   border-radius:2px;
@@ -28,10 +28,12 @@ h1, h2, h3, h4 {
   box-shadow:0 0 0px 5px green;
 }
 [type = 'radio'] {
-  margin-left:20%;
+  margin:0% 1% 5% 5%;
 }
 #dropdown {
   margin-left:25%;
+  max-width:75%;
+  min-width:30%;
 }
 [type="checkbox"] {
 margin:5px;
@@ -52,4 +54,10 @@ margin:5px;
 span {
   font-size:20px;
   opacity:0;
+}
+#radios{
+  margin-left:10%;
+}
+footer{
+  margin-top:10%;
 }
