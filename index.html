@@ -2,6 +2,7 @@
 <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
   <h1 id = "title">Coding Survey Form</h1>
 <p id = "description">Share a little of your coding knowledge by filling out this form.</p>
   <h2>Fill out the following:</h2>
@@ -20,7 +21,7 @@
     </label>
     
     <label id = "exp-label">
-    <input class = "text-input" id = "experience" type = "number" placeholder = "Years Coding" min = "0" required>
+    <input class = "text-input" id = "experience" type = "number" placeholder = "Years Coding" min  = "0" required>
     </label>
   <br><br><br>
   <br>
@@ -39,6 +40,7 @@
   
   <h2>Would you recommend freecodecamp to a friend?</h2>
   
+  <div id = "radios">
   <label for = "Yes" name = "recommend">
     <input type = "radio" name = "rec" checked value = "y">Yes
   </label>
@@ -50,6 +52,7 @@
   <label for = "Maybe" name = "recommend">
     <input type = "radio" name = "rec" value = "m">Maybe
   </label>
+  </div>
     
   <h2>Choose the following coding languages you know</h2>
   <div id = "checkboxes">
